@@ -1,7 +1,7 @@
 :root{
-    --colorBack:#607D8B;
+    --colorBack:#0d0a35;
     --fontPrincipal:#212121;
-    --sliders:#455A64;
+    --sliders:#30454b;
 }
 html{
     background: var(--colorBack);
@@ -14,10 +14,10 @@ header{
     height: 200px;
 }
 aside{
-    background: #455A64;
+    background: var(--sliders);
 }
 footer{
-    background: #455A64;
+    background: var(--sliders);
 }
 .right_to_left{
     background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
