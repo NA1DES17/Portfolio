@@ -1,12 +1,13 @@
 :root{
     --colorBack:#0d0a35;
     --fontPrincipal:#212121;
-    --fontSecundario:#FFFFFF;
+    --fontSecundario:#BDBDBD;
     --sliders:#30454b;
 }
 html{
     background: var(--colorBack);
     color: var(--fontPrincipal);
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
 }
 header{
     background-image: url(/header.jpg);
@@ -22,14 +23,23 @@ h1{
     font-size: 3em;
     padding: 5% 0 0 10%;
 }
+h2{
+    color: var(--fontSecundario);
+}
 aside{
     background: var(--sliders);
+    background-image: linear-gradient(to top, #a8caba 0%, #5d4157 100%);
 }
 aside a{
     color: var(--fontPrincipal);
 }
+aside a:hover{
+    color: var(--fontSecundario);
+    font-size: 20px;
+}
 footer{
     background: var(--sliders);
+    background-image: linear-gradient(to top, #a8caba 0%, #5d4157 100%);
 }
 .right_to_left{
     background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
