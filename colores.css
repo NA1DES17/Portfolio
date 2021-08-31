@@ -44,10 +44,9 @@ footer{
 }
 .right_to_left{
     background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    box-shadow: #AF7AC5 4px 4px;
 }
 .left_to_right{
     background-image: linear-gradient(to left, #a8caba 0%, #5d4157 100%);
-}
-div{
-    box-shadow: #AF7AC5 4px 4px;
+    box-shadow: #AF7AC5 -4px 4px;
 }
