@@ -1,0 +1,93 @@
+@media screen and (max-width: 640px){
+    *{
+        font-size: 12px;
+    }
+    header{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .right_to_left{
+        font-family: monospace;
+        animation-duration: 3s;
+        animation-name: slidein;
+        border-radius: 5px;
+    }
+    @keyframes slidein {
+        from{
+            margin-left: 100%;
+            width: 300%;
+        }
+        to{
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    .left_to_right{
+        text-align: end;
+        font-family: monospace;
+        animation-duration: 3s;
+        animation-name: skate;
+        border-radius: 5px;
+    }
+    @keyframes skate {
+        from{
+            margin-right: 100%;
+            width: 0%;
+        }
+        to{
+            margin-right: 0%;
+            width: 100%;
+        }
+    }
+    aside{
+        border-radius: 5px;
+        text-align: center;
+    }
+    aside a{
+        text-decoration: none;
+    }
+    aside ul li{
+        list-style: none;
+        padding-right: 30px;
+    }
+    footer{
+        border-radius: 5px;
+        text-align: center;
+    }
+    img{
+        width: 30%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    img:hover{
+        width: 30%;
+        padding-top: 1.33%;
+        padding-bottom: 1.33%;
+        padding-left: 0.67%;
+        padding-right: 0.67%;
+    }
+    .left_to_right p{
+        text-align: center;
+        float: left;
+        margin-left: 0%;
+        margin-bottom: 5%;
+        padding-left: 1%;
+    }
+    .right_to_left p{
+        text-align: center;
+        float: right;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        padding-right: 3%;
+    }
+    div{
+        margin-top: 1%;
+    }
+    h2{
+        text-decoration: underline;
+        font-size: 1.4em;
+    }
+
+}
