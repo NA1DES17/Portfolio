@@ -2,6 +2,7 @@
     font-size: 16px;
 }
 header{
+    width: 100%;
     border-radius: 5px;
 }
 .right_to_left{
@@ -39,9 +40,17 @@ header{
 }
 aside{
     border-radius: 5px;
+    text-align: center;
+}
+aside a{
+    text-decoration: none;
+}
+aside ul li{
+    list-style: none;
 }
 footer{
     border-radius: 5px;
+    text-align: center;
 }
 img{
     width: 30%;
@@ -64,4 +73,7 @@ img{
 }
 div{
     margin-top: 0.5%;
+}
+h2{
+    text-decoration: underline;
 }
