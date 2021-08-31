@@ -22,6 +22,7 @@ div img{
 h1{
     font-size: 3em;
     padding: 5% 0 0 10%;
+    text-shadow: var(--sliders) 2px 3.5px 1px;
 }
 h2{
     color: var(--fontSecundario);
@@ -46,4 +47,7 @@ footer{
 }
 .left_to_right{
     background-image: linear-gradient(to left, #a8caba 0%, #5d4157 100%);
+}
+div{
+    box-shadow: #AF7AC5 4px 4px;
 }
